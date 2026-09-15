@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+datasets/
+*.zip
+*.tar.gz
+runs/
+*.pt
+*.onnx
+*.engine
+*.cache
+.DS_Store
+.idea/
+.vscode/
