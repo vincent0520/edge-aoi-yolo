@@ -1,0 +1,5 @@
+path: D:/edge_aoi_yolo/datasets/NEU-DET
+train: train/images
+val: test/images
+nc: 6
+names: [crazing, inclusion, patches, pitted_surface, rolled-in_scale, scratches]
