@@ -46,3 +46,18 @@ with open('results/csv/per_class.csv','w',newline='') as f:
 
 print('Wrote results/csv/stage_comparison.csv')
 print('Wrote results/csv/per_class.csv')
+
+# 3. INT8 vs FP16 的 precision/recall 变化（核心发现）
+import csv
+delta = []
+fp16 = {'crazing':[0.420,0.215],'inclusion':[0.652,0.697],'patches':[0.792,0.887],
+        'pitted_surface':[0.822,0.704],'rolled-in_scale':[0.694,0.494],'scratches':[0.564,0.844]}
+int8 = {'crazing':[0.438,0.316],'inclusion':[0.506,0.764],'patches':[0.751,0.879],
+        'pitted_surface':[0.601,0.543],'rolled-in_scale':[0.533,0.595],'scratches':[0.384,0.859]}
+with open('results/csv/int8_vs_fp16_tradeoff.csv','w',newline='') as f:
+    w = csv.writer(f)
+    w.writerow(['class','P_fp16','P_int8','P_delta','R_fp16','R_int8','R_delta'])
+    for c in fp16:
+        pf,rf = fp16[c]; pi,ri = int8[c]
+        w.writerow([c,pf,pi,round(pi-pf,3),rf,ri,round(ri-rf,3)])
+print('Wrote results/csv/int8_vs_fp16_tradeoff.csv')
