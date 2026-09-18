@@ -1,0 +1,5 @@
+stage,platform,mAP50,mAP50_95,precision,recall,crazing_recall,inference_ms,engine_size_MB
+FP32,Desktop_4070Ti,0.736,0.409,0.645,0.667,0.278,,
+ONNX,Desktop_4070Ti,0.71,0.375,0.653,0.645,0.218,3.5,12.0
+FP16,Jetson_OrinNano,0.71,0.374,0.657,0.64,0.215,10.8,8.5
+INT8,Jetson_OrinNano,0.635,0.312,0.536,0.659,0.316,9.4,4.7
