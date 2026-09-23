@@ -1,0 +1,5 @@
+﻿path: D:/edge_aoi_yolo/datasets/openimages_yolo
+train: images/train
+val: images/val
+nc: 15
+names: [Bottle, Cup, Book, Laptop, Chair, Car, Cat, Dog, Person, Bicycle, Bird, Clock, Flower, Table, Backpack]
