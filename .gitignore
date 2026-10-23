@@ -13,3 +13,8 @@ runs/
 .DS_Store
 .idea/
 .vscode/
+.venv_prune/
+pruned/*.pt
+pruned/*.onnx
+pruned/*.engine
+.venv_prune/
