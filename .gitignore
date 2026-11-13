@@ -1,10 +1,12 @@
 .venv/
 venv/
 .venv_prune/
+.venv_anomalib/
 __pycache__/
 *.pyc
 datasets/
 runs/
+results/
 *.pt
 *.onnx
 *.engine

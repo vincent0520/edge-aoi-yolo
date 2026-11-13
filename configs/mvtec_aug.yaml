@@ -1,0 +1,20 @@
+path: datasets/mvtec_aug
+train: images/train
+val: images/val
+nc: 15
+names:
+- bottle
+- cable
+- capsule
+- carpet
+- grid
+- hazelnut
+- leather
+- metal_nut
+- pill
+- screw
+- tile
+- toothbrush
+- transistor
+- wood
+- zipper
