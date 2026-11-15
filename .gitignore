@@ -20,3 +20,6 @@ prune_distill/
 .DS_Store
 .idea/
 .vscode/
+onnx_export/ 
+*.onnx 
+*.onnx.data 
