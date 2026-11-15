@@ -23,3 +23,23 @@ prune_distill/
 onnx_export/ 
 *.onnx 
 *.onnx.data 
+
+# ===== 異常偵測訓練產物（大檔，可從腳本重新生成，不進 git）=====
+# checkpoint（PatchCore memory bank 存在裡面，可達數百 MB）
+*.ckpt
+# ONNX 與其外部權重檔
+*.onnx
+*.onnx.data
+# TensorRT engine
+*.engine
+# anomalib 訓練結果目錄（含 ckpt / onnx / 影像）
+anomalib/results/
+anomalib/results_backbone/
+anomalib/results_coreset/
+anomalib/results_r18coreset/
+anomalib/onnx_export/
+anomalib/onnx_export_*/
+# 散落的 onnx 複本
+anomalib/pc_*.onnx
+anomalib/ff_*.onnx
+anomalib/*.onnx.data

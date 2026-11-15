@@ -1,0 +1,23 @@
+{
+  "cable:ratio0.1": {
+    "ratio": 0.1,
+    "image_AUROC": 0.9881934523582458,
+    "image_F1Score": 0.967391312122345,
+    "pixel_AUROC": 0.9853302240371704,
+    "pixel_F1Score": 0.6413407921791077
+  },
+  "cable:ratio0.05": {
+    "ratio": 0.05,
+    "image_AUROC": 0.9868815541267395,
+    "image_F1Score": 0.9677419066429138,
+    "pixel_AUROC": 0.9852743148803711,
+    "pixel_F1Score": 0.6384981274604797
+  },
+  "cable:ratio0.01": {
+    "ratio": 0.01,
+    "image_AUROC": 0.9904422760009766,
+    "image_F1Score": 0.9677419066429138,
+    "pixel_AUROC": 0.9835885167121887,
+    "pixel_F1Score": 0.6311607956886292
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cable:resnet18_cs0.01": {
+    "backbone": "resnet18",
+    "ratio": 0.01,
+    "image_AUROC": 0.9799475073814392,
+    "image_F1Score": 0.9378530979156494,
+    "pixel_AUROC": 0.9795835614204407,
+    "pixel_F1Score": 0.6245090961456299
+  }
+}

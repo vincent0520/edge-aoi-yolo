@@ -1,0 +1,8 @@
+{
+  "resnet18:cable": {
+    "image_AUROC": 0.9773237705230713,
+    "image_F1Score": 0.936170220375061,
+    "pixel_AUROC": 0.9816666841506958,
+    "pixel_F1Score": 0.6192944645881653
+  }
+}
